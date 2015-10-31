@@ -73,6 +73,13 @@ We recommend send out a reminder email to attendees the night before (Eventbrite
 * What they need to bring or have installed on their device.
 * Event hastag and website.
 
+###Health and Safety
+Health and safety shouldn't be strenuous, but be repared for something to go wrong. It will always come in handy to:
+* Have all helpers know a safe spot to evacuate to.
+* Have a supply of plasters, a dustpan and brush and a blanket.
+* Have know where the nearest fire extinguisher is.
+* Let attendees know that it's unikely but batteries can rupture and electronics can start to smoke and occasionally catch fire. Ruptured or swollen batteries should be discarded using the dustan and brush. Smoking electronics should be disconnected from their power source and/or smothered with a blanket (or CO2 fre extinguisher). It's very hard to hurt yourself seriously with the contents of Nodebots kits.
+
 ###Runsheet
 Have several hard copies of this available (or an easy-to-find soft copy).
 
