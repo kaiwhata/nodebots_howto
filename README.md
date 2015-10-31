@@ -75,6 +75,7 @@ We recommend send out a reminder email to attendees the night before (Eventbrite
 
 ###Runsheet
 Have several hard copies of this available (or an easy-to-find soft copy).
+
 | Time  | Activity  | People Required | 
 | :------------ |:---------------:| ------: |
 | 8:00am      | Team setup begins | All team |
@@ -90,6 +91,7 @@ Have several hard copies of this available (or an easy-to-find soft copy).
 | 4:00pm | Packdown finishes and team celebrates | All team |
 
 For an evening event (consider running evening events as adult only because of tight timelines):
+
 | Time  | Activity  | People Required | 
 | :------------ |:---------------:| ------: |
 | 4:00pm      | Team setup begins | All team |
@@ -107,10 +109,13 @@ For an evening event (consider running evening events as adult only because of t
 
 ####Helpful hints
 Here's a few suggested things to have to make your day go smoothly and ensure a positive reception.
- - [ ] Have snacks (museli bars/fruit/chocolate etc) for your helpers. they'll need their energy.
+ - [ ] Have snacks (museli bars/fruit/chocolate etc) for your helpers. They'll need their energy.
  - [ ] Have some spot prizes for quick construction, innovation, creativity, technical expertise (or whatever you want).
  - [ ] Have a list of some additional resources for people to investigate in their own time, like [these]().
  - [ ] Have post-it and pens notes available to people to write comments, criticisms, feedback and ideas on and a board or wall to attach them to. Photograph them afterwards and keep a copy (event better post it to all of us!). This gives you valueable feedback (and you'll also get nice comments that make you feel warm and fuzzy inside, if you're not a robot). It also gives you some data to feed back to your sponsors!
 
 ####Comments about learning
-Yes
+Yes everyone learns in their own style at their own unique pace. That said there are a few things you can do to encourage learning and enthusiasm.
+* Set achieveable goals. If your event is 4 hours of build time, pick a bot that can be safely assembled and tested in 3 hours. People learn more and retain the information for longer if they suceed in a challenge compared to if they run out of time to complete a task.
+* Have extension challenges that are hard. While having a main challenge that's easily achieveable, also have a few extension challenges for people to aspire too. You can let people choose their own but having a couple of good examples will help people come up with their own projects. A nice extension for the sumo bot can be teaching your bot to navigate like a roomba (which requires collision detection and randomised turning).
+* Try not to make people feel stupid. People are going to ask you and your team stupid questions, try not to take it personally. Be as patient as you can, but be aware that there are people who will simply expect you to do everything for them. So don't be afraid to tell people to figure it out for themselves or Google it if you run out of patience.
