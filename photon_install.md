@@ -69,16 +69,16 @@ Follow the npm install instructions from OSX guide.
 ##Troubleshooting
 
 ###When I run ```node sumo.js``` I get an error message saying the photon can't be found.
-    - Check your photon is connected to the same wireless network as your laptop. Check your acess token and deivce ID are set correctly (they should both be a long strong of numbers in quotation marks). If th light on your photon is flashing green it means it hasn't sucessfully connected to the local wireless network and you need to run ```particle setup wifi``` again.
+- Check your photon is connected to the same wireless network as your laptop. Check your acess token and deivce ID are set correctly (they should both be a long strong of numbers in quotation marks). If th light on your photon is flashing green it means it hasn't sucessfully connected to the local wireless network and you need to run ```particle setup wifi``` again.
 
 ###I've followed the commands above but after running ```node sumo.js``` my console prints a line ending in particle-io without an error message and then exits.
-    - Your photon is probably busted. You could try reflashing its firmware or using a different photon. 
+- Your photon is probably busted. You could try reflashing its firmware or using a different photon. 
 
 ###The light on my photon is X colour. What does it mean?
-    - Flashing Green - attempting to connect to  wireless network.
-    - Breathing Blue - sucessfully connected to local wireless.
-    - Flashing Blue - awaiting commands via USB.
-    - Red - low power. Replace your batteries.
-    - Blue and White and Orange - Photon is booting.
-    - LED off - Photon is not getting any power.
+- Flashing Green - attempting to connect to  wireless network.
+- Breathing Blue - sucessfully connected to local wireless.
+- Flashing Blue - awaiting commands via USB.
+- Red - low power. Replace your batteries.
+- Blue and White and Orange - Photon is booting.
+- LED off - Photon is not getting any power.
 
