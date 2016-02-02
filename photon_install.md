@@ -5,7 +5,7 @@
 ###Install Node
 We highly recommend installing node using Homebrew (http://brew.sh/).
 Then install the most up to date Node using:
-'''brew install node'''
+```brew install node```
 
 If you already have node installed using Homebrew then upgrade it to the latest version using:
 '''brew upgrade node'''
