@@ -7,6 +7,7 @@ Comments, edits and criticisms are all welcome.
 ##Technical links
 * Getting the [FTDI drivers for Sparkfun Redboard installed](https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/all) on many operating systems (required for the Arduino IDE to work).
 * Getting [Sparkfun Photons up and running](https://github.com/kaiwhata/nodebots_howto/blob/master/photon_install.md).
+* [Sumobot electronics troubleshooting](https://github.com/kaiwhata/nodebots_howto/blob/master/electronics_troublshooting.md) (coming soon!)
 
 ##Pre-event Preparation
 
