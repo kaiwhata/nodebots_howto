@@ -4,6 +4,10 @@ As we progress we will also try and build this into some form of curriculum too 
 
 Comments, edits and criticisms are all welcome.
 
+##Technical links
+* Getting the [FTDI drivers for Sparkfun Redboard installed](https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/all) on many operating systems (required for the Arduino IDE to work).
+* Getting [Sparkfun Photons up and running](https://github.com/kaiwhata/nodebots_howto/blob/master/photon_install.md).
+
 ##Pre-event Preparation
 
 * Get your event listed on [Nodebots.io](http://nodebots.io/).
