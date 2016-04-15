@@ -46,6 +46,8 @@ Now set the acess token by changing ```token: process.env.SPARK_TOKEN,``` to ```
 
 Finally set the device ID by changing ```deviceId: process.env.SPARK_DEVICE_2``` to ```deviceId: "<your device ID here>",```
 
+Access tokens available here: https://gist.github.com/PrototypeAlex/8f9957beb9f77c8c8e56
+
 ###Execute your javascript/node code
 Execute your code with the command:
 ```node sumo.js```
