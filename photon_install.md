@@ -75,6 +75,12 @@ Follow the npm install instructions from OSX guide.
 
 ###I've followed the commands above but after running ```node sumo.js``` my console prints a line ending in particle-io without an error message and then exits.
 - Your photon is probably busted. You could try reflashing its firmware or using a different photon. 
+- 
+###Re-flashing the firmware - get the nodebots event organiser to perform this for you.
+Connect particle via USB, then run `particle setup`. You will need a particle build account for this to work. Sign in with your particle account details and bind the photon to your particle account. Once complete you will need to flash the particle with the `voodoosparck.cpp` following the instructions (here)[https://github.com/voodootikigod/voodoospark]. Make sure to flash the photon using either the command line (hard way) or the particle build website (easy way) here: https://build.particle.io/build/. Depending on your node setup following the sumobot junior build instructions for the arduino base (git clone the repo and npm modules then run npm i) may also help. 
+
+350047000947343432313031
+
 
 ###The light on my photon is X colour. What does it mean?
 - Flashing Green - attempting to connect to  wireless network.
