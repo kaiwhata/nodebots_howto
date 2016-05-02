@@ -21,7 +21,7 @@ def takepicture():
 
 @route('/drive/<time>/<leftmotordir>/<leftPWM>/<rightmotordir>/<rightPWM>')
 def drive(time, leftmotordir, leftPWM, rightmotordir, rightPWM):
-    
+    #this drives both motors with a direction and PWM value for a certain time
     print "Motor On\n"
     GPIO.output(16, (rightmotordir=='True')) #right direction
     #GPIO.output(19, False) #right PWM
@@ -54,6 +54,7 @@ def drive(time, leftmotordir, leftPWM, rightmotordir, rightPWM):
 
 @route('/PWM/<pin>/<value>')
 def PWM_motor1(pin, value):
+    #this attmpts to PWM a specific pin and duty cycle on the pi using a RESTFUL API
     channel = int(pin)
     frequency = 50
     dutycycle = float(value)
@@ -73,17 +74,22 @@ def PWM_motor1(pin, value):
 
     return "PWM'd"
 
-
+#initialises Rpi camera and defines resolution
 camera = picamera.PiCamera()
 camera.resolution = (320, 240)
 
+#usually goes at end of program. I have put it at start because server will usually be interrupted.
+#this will undo any existing PWM on the GPIO ports
 GPIO.cleanup()
 
+#sets board numbering
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(16, GPIO.OUT)
 GPIO.setup(20, GPIO.OUT)
 GPIO.setup(21, GPIO.OUT)
 GPIO.setup(19, GPIO.OUT)
+
+#sets pins for output
 GPIO.output(16, False)
 GPIO.output(19, False)
 GPIO.output(20, False)
