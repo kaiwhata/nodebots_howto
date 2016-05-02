@@ -4,6 +4,9 @@ from time import sleep
 import RPi.GPIO as GPIO
 import picamera
 
+#Hi ENGR101. Please dont judge me for this terrible code
+#it was late and I was tired and maybe a little hungover
+#wgtnandroidhackathon
 
 #@route('/')
 #def hello():
