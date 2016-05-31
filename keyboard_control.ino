@@ -48,6 +48,7 @@ void loop()
               break;
             }
     stop();
+    }
 } 
 
 void drive_forward(int drivetime, int speed)
