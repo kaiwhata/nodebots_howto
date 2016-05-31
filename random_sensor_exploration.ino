@@ -6,7 +6,7 @@
 Servo leftwheel;  // create servo object to control a servo on a wheel
 Servo rightwheel; // create another servo object to control the other wheel
 
-int threshold 400;
+const int threshold 400;
 
 void setup() 
 { 
