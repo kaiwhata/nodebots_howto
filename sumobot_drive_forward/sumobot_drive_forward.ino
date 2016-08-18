@@ -22,8 +22,8 @@ void loop()
     // and a number below 90 measn turn in the opposite direction.
     // the further away from 90 the number is the faster the servo rotation
     
-    leftwheel.write(85);              // tell servo to turn slowly in opposite directions
-    rightwheel.write(95);             // this should make the robot drive roughly straight ahead
+    leftwheel.write(65);              // tell servo to turn slowly in opposite directions
+    rightwheel.write(115);             // this should make the robot drive roughly straight ahead
     delay(500);
     
     //drive_forward(500, 5);          //this uses the method below to achieve the same effect as the 3 lines of code above
@@ -31,8 +31,8 @@ void loop()
     leftwheel.write(90);              // tell both servos to stop 
     rightwheel.write(90);  
     delay(500);
-    leftwheel.write(95);              // tell servo to turn slowly in opposite directions 
-    rightwheel.write(85);             // this should make the robot drive roughly straight in reverse
+    leftwheel.write(115);              // tell servo to turn slowly in opposite directions 
+    rightwheel.write(65);             // this should make the robot drive roughly straight in reverse
     delay(500);
     leftwheel.write(90);              // tell both servos to stop 
     rightwheel.write(90);  

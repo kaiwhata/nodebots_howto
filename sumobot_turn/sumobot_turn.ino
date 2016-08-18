@@ -19,7 +19,7 @@ void setup()
 void loop() 
 {        
     //drive forward for 500 milliseconds at a speed of 5
-    drive_forward(500, 5);          //this uses the method below to achieve the same effect as the 3 lines of code above
+    drive_forward(500, 25);          //this uses the method below to achieve the same effect as the 3 lines of code above
 
     //turn slowly left for 500 milliseconds 
     turn_left(500);          
@@ -49,13 +49,13 @@ void stop()
 void turn_left(int turntime)
 {
     leftwheel.write(90);              // stops left wheel
-    rightwheel.write(95);             // drives right wheel (this should make the robot drive roughly turn left)
+    rightwheel.write(115);             // drives right wheel (this should make the robot drive roughly turn left)
     delay(turntime);
 }
 
 void turn_right(int turntime)
 {
-    leftwheel.write(95);              // drives left wheel
+    leftwheel.write(115);              // drives left wheel
     rightwheel.write(90);             // stops right wheel (this should make the robot drive roughly turn right)
     delay(turntime);
 }

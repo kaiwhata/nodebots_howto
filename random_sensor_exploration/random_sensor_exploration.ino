@@ -6,7 +6,7 @@
 Servo leftwheel;  // create servo object to control a servo on a wheel
 Servo rightwheel; // create another servo object to control the other wheel
 
-const int threshold 400;
+const int threshold = 400;
 
 void setup() 
 { 
@@ -17,7 +17,8 @@ void setup()
   Serial.begin(9600);
   
   //setup random number generator - yes this could easily be improved!
-  randomSeed(analogRead(A0));
+  //randomSeed(analogRead(A0));
+  randomSeed(2023);
 } 
  
  
@@ -31,7 +32,8 @@ void loop()
     delay(1);        // delay in between reads for stability
     
     //if sensor detects something 
-    if (sensorValue > threshold) {
+    //if (sensorValue > threshold) {
+      if (true) {
         Serial.println('Object detected: Turning');
         //pick two random numbers
         int randomNumber1 = random(0,3);
@@ -39,12 +41,13 @@ void loop()
         
         if (randomNumber1 > 1) {
           //turn slowly left for a random length of time 
-          turn_left(randomNumber2*100);   
+          turn_left(randomNumber2*10);   
           }
         else {
           //turn slowly right for a random length of time
-          turn_right(randomNumber2*100); 
+          turn_right(randomNumber2*10); 
         }
+        drive_forward(1000, 15);
       } 
     else { //otherwise drive forward
       drive_forward(500, 5);
@@ -70,14 +73,14 @@ void stop()
 
 void turn_left(int turntime)
 {
-    leftwheel.write(90);              // stops left wheel
-    rightwheel.write(95);             // drives right wheel (this should make the robot drive roughly turn left)
+    leftwheel.write(80);              // stops left wheel
+    rightwheel.write(115);             // drives right wheel (this should make the robot drive roughly turn left)
     delay(turntime);
 }
 
 void turn_right(int turntime)
 {
-    leftwheel.write(95);              // drives left wheel
-    rightwheel.write(90);             // stops right wheel (this should make the robot drive roughly turn right)
+    leftwheel.write(115);              // drives left wheel
+    rightwheel.write(80);             // stops right wheel (this should make the robot drive roughly turn right)
     delay(turntime);
 }
